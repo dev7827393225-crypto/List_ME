@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Splash-enabled theme -->
+    <style name="Theme.ShoppingList" parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Splash background color -->
+        <item name="windowSplashScreenBackground">#2196F3</item>
+
+        <!-- Splash icon (your drawable) -->
+        <item name="windowSplashScreenAnimatedIcon">@drawable/img</item>
+
+        <!-- Theme to apply after splash ends -->
+        <item name="postSplashScreenTheme">@style/Theme.ShoppingList.Main</item>
+    </style>
+
+    <!-- Main App Theme -->
+    <style name="Theme.ShoppingList.Main"  parent="android:Theme.Material.Light.NoActionBar">
+        <!-- Customize colors etc. -->
+    </style>
+
+</resources>
